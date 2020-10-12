@@ -1,56 +1,30 @@
 import React from 'react';
 import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
+import { AboutMe } from './features/aboutme/aboutme';
+import { LandingPage } from './features/landing/landing';
+import {ProjectStrip} from './features/projectstrip/projectstrip';
+import {MoreAbout} from './features/additional-about/moreabout';
+import { Skills } from './features/additional-about/skills';
+import {WorkExp} from './features/workexp/workexp';
+import { Footer } from './features/footer/footer';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Counter />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <span>
-          <span>Learn </span>
-          <a
-            className="App-link"
-            href="https://reactjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux-toolkit.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux Toolkit
-          </a>
-          ,<span> and </span>
-          <a
-            className="App-link"
-            href="https://react-redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React Redux
-          </a>
-        </span>
-      </header>
+        <LandingPage />
+        <AboutMe />
+        {/* <MoreAbout /> */}
+        <Skills />
+        <WorkExp />
+        Scroll down to check out some of my projects! <br></br>
+      <FontAwesomeIcon icon={faChevronDown} />
+      <ProjectStrip />
+
+        <Footer />
     </div>
   );
 }

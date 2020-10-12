@@ -1,0 +1,14 @@
+.timeline {
+  /* background-color: #e8f4ea; */
+  padding-top: 3rem;
+  text-align: left;
+  padding-bottom: 3rem;
+}
+
+.vertical-timeline.vertical-timeline--two-columns:before{
+  background-color: #6c757d;
+}
+
+.vertical-timeline-element-date {
+  color: #6c757d;
+}

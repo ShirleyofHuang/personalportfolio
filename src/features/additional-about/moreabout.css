@@ -1,0 +1,28 @@
+.more-about {
+    background-color: #b4dbbb;
+    /* color: #404040; */
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.learnmore {
+    margin-top: 1rem;
+}
+
+.button-styling {
+    color: white;
+}
+
+.ul-courses {
+    list-style-type: none !important;
+}
+
+.turn_green {
+    color: #6c936c;
+}
+
+.skills {
+    font-weight: bold;
+    font-size: 15px;
+}

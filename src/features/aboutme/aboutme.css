@@ -1,0 +1,27 @@
+.about-me {
+
+}
+@font-face {
+  font-family: 'Lato';
+  src: url(http://fonts.googleapis.com/css?family=Lato:400,700)
+}
+  .about-me____image-bg {
+    height: 300px;
+    background-position: center center;
+    padding: 5rem;
+    border-radius: 50%;
+      padding:1px;
+      border:10px solid #b4dbbb;
+      /* background-color:#ff0; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://i.ibb.co/MSJm5qC/picme.jpg");
+  }
+  .about-me____text-section {
+    padding: 5rem;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .about-me____details {
+    padding: 5rem;
+  }

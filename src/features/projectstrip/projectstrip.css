@@ -1,0 +1,19 @@
+.projectstrip____horizontal-scroll .projectstrip____scroll-row .projectstrip____card-cont{
+    overflow: auto;
+    font: 100;
+    background-color: #e8f4ea;
+
+}
+.projectstrip____scroll-row .projectstrip____card-cont{
+    white-space: nowrap;
+    scroll-snap-type:x mandatory;
+    scroll-padding: 50%;
+  }
+
+  .projectstrip____card-cont {
+    scroll-snap-align: center;
+    display: inline-block;
+    white-space: initial;
+    vertical-align: top;
+  }
+  

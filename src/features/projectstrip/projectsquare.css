@@ -1,0 +1,39 @@
+.card {
+    width: 18rem;
+    height: 18rem;
+    border-radius: 5% !important;
+}
+
+.card-img-top {
+  border-radius: 5% !important;
+}
+
+.card-text {
+  color: #6C757D;
+}
+
+.snippet {
+    margin: 3rem;
+}
+
+.projectstrip____horizontal-scroll {
+    overflow-x: auto;
+    background-color: #b4dbbb;
+    
+}
+.projectstrip____horizontal-scroll::-webkit-scrollbar {
+    display: none;
+  }
+
+.projectstrip____scroll-row {
+    white-space: nowrap;
+    scroll-snap-type:x mandatory;
+    scroll-padding: 50%;
+  }
+
+  .projectstrip____card-cont {
+    scroll-snap-align: center;
+    display: inline-block;
+    white-space: initial;
+    vertical-align: top;
+  }
