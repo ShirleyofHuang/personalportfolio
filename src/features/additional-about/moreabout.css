@@ -16,6 +16,7 @@
 
 .ul-courses {
     list-style-type: none !important;
+    padding-left: 0;
 }
 
 .turn_green {

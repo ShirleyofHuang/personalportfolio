@@ -25,7 +25,7 @@ export const Footer = () => {
                 &nbsp;
                 <SocialIcon
                   class="icons"
-                  url="#"
+                  url="mailto: shirley.huang2000@outlook.com"
                   network="email"
                   label="Email"
                 ></SocialIcon>

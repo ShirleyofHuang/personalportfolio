@@ -9,7 +9,7 @@ export const LandingPage = () => {
         <section class="section parallax bg1">
           <div class="boxed">
             <h1>WELCOME,</h1>
-            <h3 class="introduction">i'm shirley huang.</h3>
+            <h3 class="introduction">I'm Shirley Huang.</h3>
           </div>
         </section>
       </main>

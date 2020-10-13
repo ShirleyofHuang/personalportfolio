@@ -22,7 +22,7 @@
     
 }
 .projectstrip____horizontal-scroll::-webkit-scrollbar {
-    display: none;
+    /* display: none; */
   }
 
 .projectstrip____scroll-row {

@@ -7,6 +7,7 @@ import {ProjectStrip} from './features/projectstrip/projectstrip';
 import {MoreAbout} from './features/additional-about/moreabout';
 import { Skills } from './features/additional-about/skills';
 import {WorkExp} from './features/workexp/workexp';
+import {Fun} from './features/funstuff/fun';
 import { Footer } from './features/footer/footer';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
@@ -20,10 +21,10 @@ const App = () => {
         {/* <MoreAbout /> */}
         <Skills />
         <WorkExp />
-        Scroll down to check out some of my projects! <br></br>
+        Scroll right to check out some of the things I've worked on! <br></br>
       <FontAwesomeIcon icon={faChevronDown} />
       <ProjectStrip />
-
+      {/* <Fun></Fun> */}
         <Footer />
     </div>
   );
